@@ -32,12 +32,11 @@ button2.addEventListener('click', () => {
 const dogs1 = [];
 const dogs2 = [];
 
-// const prevButton = document.querySelector('.prev') 
-// prevButton.addEventListener('click', () => {
-//     for(let i=0; i < dogs1.length; i++) {
-//         dogs1.src = dogs1[i - 1]
-//     }
-// })
+const prevButton = document.querySelector('.prev') 
+prevButton.addEventListener('click', () => {
+    const doggy1 = document.querySelector('.img1');
+    doggy1.src = dogs1[0]
+})
 
 
 
